@@ -20,11 +20,6 @@ const getEntities = createSelector(
   state => state.entities
 );
 
-// const getEntities = createSelector(
-//   state => stateData.products,
-//   state => stateData.products.pizzas,
-//   state => stateData.products.pizzas.entities
-// );
 
 @Component({
   selector: 'app-root',
